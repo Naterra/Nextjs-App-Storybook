@@ -1,0 +1,50 @@
+//CKEditor uploaded images
+figure{
+  &.image {
+    //margin: 0;
+    padding-top: 5px;
+    margin: auto;
+
+    img {
+      width: inherit;
+      max-width: 100%;
+    }
+
+    //Centered img
+    &.image-style-align-center {
+      text-align: center;
+      margin: auto;
+      width: 80%;
+    }
+
+    //IMG: align left
+    &.image-style-align-left{
+      float:left;
+      margin-right: 10px!important;
+    }
+
+    &.image-style-align-right{
+      float:right;
+      margin-left: 10px!important;
+    }
+
+  }
+
+
+
+
+
+  // CKEditor
+  .ck-content, .ckEditorContent{
+    p{
+      padding: 5px 0;
+      margin: 0;
+    }
+    ul{
+      li{
+        list-style-type: disc;
+        margin-left: 10px;
+      }
+    }
+  }
+}

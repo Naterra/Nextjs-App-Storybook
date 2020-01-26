@@ -1,0 +1,190 @@
+@import 'layout';
+@import 'form';
+@import 'ckEditor';
+
+h1,h2,h3,h4,h5 {
+	color: #68829a;
+}
+
+h1 {
+	font-size: 2.5rem;
+	width: 100%;
+	margin-top: 0px;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.8rem;
+}
+h4 {
+	font-size: 1.3rem;
+}
+h5 {
+	font-size: 1.1rem;
+}
+
+.mainPage .searchBox {
+	position: absolute;
+	top: 300px;
+}
+
+
+.account-page {
+	background-color: #f5f5f5;
+}
+
+
+
+.background-img {
+	background-size: cover;
+	background-position: center;
+}
+
+.ul-horizontal {
+	li {
+		float: left;
+		margin-right: 10px;
+	}
+}
+
+ul.collectionsLinks {
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+
+	a {
+		color: #f0c20a;
+	}
+	a:hover {
+		color: black;
+	}
+}
+
+.collectionImg {
+	box-shadow: none;
+	min-height: 175px;
+
+	.card-title {
+		color: #333;
+		font-size: 19px;
+		font-weight: 300;
+		text-align: center;
+		display: block;
+	}
+	.card-title:hover {
+		color: #f0c20a;
+	}
+
+	.card-content {
+		padding: 5px;
+	}
+
+	.imgWrap {
+		height: 175px;
+	}
+
+	&.wind {
+		.imgWrap {
+			display: flex;
+			justify-content: center;
+
+			img {
+				align-self: flex-end;
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+	}
+}
+
+table {
+	color: #68829a;
+
+	thead {
+		color: #516475;
+	}
+	.table-actions {
+		i {
+			font-size: 15px;
+		}
+	}
+
+	&.highlight {
+		tbody {
+			tr:hover {
+				background-color: #effced;
+			}
+		}
+	}
+}
+
+.fixed_container {
+	width: 95%;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.BlueTabMenu {
+	.tab-menu {
+		background: #f7f7f7;
+	}
+	ul.tabs {
+		background: #f7f7f7;
+	}
+}
+
+.modal {
+	background-color: #fff;
+}
+
+ul#mapTool {
+	background-color: #597f92;
+
+	a {
+		color: #fff;
+	}
+}
+
+
+
+.icon-spin {
+	display: inline-block;
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.equal-col {
+	display: flex;
+	flex-wrap: wrap;
+
+	.col {
+		margin-left: 0px !important;
+		height: 280px;
+		position: relative;
+		background: #eee;
+	}
+}
+
+
+
+//Large Screen
+@media only screen and (min-width: 992px) {
+	.show-on-medium-and-down {
+		display: none;
+	}
+}

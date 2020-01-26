@@ -1,0 +1,91 @@
+html, body {}
+#__next {}
+
+
+main {
+  min-height: calc(100vh - 137px);
+
+  &.adminPage {
+    display: flex;
+  }
+}
+
+footer {
+  font-size: 13px;
+  margin-bottom: 0px!important;
+  min-height: 70px;
+  color: #8c8a85;
+
+  h5 {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    .small {
+      text-transform: capitalize;
+      font-size: 11px;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+  ul {
+    margin-top: 0;
+  }
+}
+
+.admin-left-sidebar{
+  background: #597f92;
+  //height: calc(100vh - 137px);
+  padding: 0;
+  margin-bottom: -20px;
+
+  a{ color:#fff; }
+  ul{
+    border:none!important;
+    box-shadow: none;
+
+    li{
+      a{ display: -webkit-flex; }
+    }
+  }
+  .title{ flex: 1 1 auto; }
+  i.right{
+    float:right;
+  }
+  .collapsible{
+    .collapsible-header{
+      padding: 10px;
+      background:none!important;
+      color: #fff;
+      border-bottom: none;
+    }
+    .collapsible-body{
+      padding: 0rem 0 0 4rem;
+    }
+  }
+
+  .collection{
+    border:none;
+
+    .collection-item{
+      background:none!important;
+    }
+  }
+
+  .adminMenu{
+
+    li {
+      padding: 10px;
+
+      span {  margin-left: 10px;  }
+    }
+
+  }
+}
+
+//Mid and Small Screen
+//@media only screen and (max-width: 992px) {
+//  main { }
+//}

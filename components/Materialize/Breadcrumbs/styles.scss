@@ -1,0 +1,23 @@
+.breadcrumbs{
+  margin-bottom: 15px;
+
+  .homeLink{
+    color:#7e827e;
+    vertical-align: sub;
+
+    i{ font-size: 16px; }
+  }
+
+  .breadcrumb{
+    vertical-align: middle;
+    color: #7e827e;
+    font-size: 13px;
+  }
+
+  .breadcrumb:before {
+    vertical-align: sub;
+    color: #7e827e;
+    font-size: 16px;
+
+  }
+}

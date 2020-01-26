@@ -1,0 +1,17 @@
+
+/**   USER **/
+export const FETCH_USER = "FETCH_USER";
+
+
+/**  Sets **/
+export const LOAD_SETS = "LOAD_SETS";
+export const UPDATE_SET = "UPDATE_SET";
+export const DELETE_SET = "DELETE_SET";
+export const UPDATE_SET_COLLECTIONS = "UPDATE_SET_COLLECTIONS";
+export const DELETE_SET_COLLECTION = "DELETE_SET_COLLECTION";
+
+
+/**  SEARCH  **/
+export const CHANGE_SEARCH_LOCATION = "CHANGE_SEARCH_LOCATION";
+export const CHANGE_SEARCH_KEYWORD = "CHANGE_SEARCH_KEYWORD";
+
