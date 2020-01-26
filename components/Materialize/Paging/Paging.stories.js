@@ -3,7 +3,7 @@ import Paging   from "./Paging.js";
 
 
 export default {
-    title: 'Components',
+    title: 'Materialize',
     component: Paging,
 };
 
