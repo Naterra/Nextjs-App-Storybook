@@ -1,0 +1,7 @@
+footer {
+  padding: 10px 0; }
+  footer .socLinks ul li {
+    padding: 0 10px 0 10px;
+    float: left; }
+  footer .socialIcons img {
+    height: 20px; }
